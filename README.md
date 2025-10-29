@@ -64,6 +64,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 **🌐 API Endpoints**
+```bash
 Method	Endpoint	Description
 GET	/books/	Get all books
 POST	/books/	Add new book
@@ -73,28 +74,19 @@ DELETE	/books/{id}	Delete a book
 GET	/authors/	List authors
 POST	/authors/	Add author
 GET	/reviews/	View all reviews
-
+```
 **🛠️ Tools Used**
-
-FastAPI — high-performance API framework
-
-Uvicorn — ASGI web server
-
-SQLAlchemy — ORM for database management
-
-Pydantic — data validation
-
-Postman / Thunder Client — API testing
-
+- FastAPI — high-performance API framework
+- Uvicorn — ASGI web server
+- SQLAlchemy — ORM for database management
+- Pydantic — data validation
+- Postman / Thunder Client — API testing
+---
 **📖 Future Enhancements**
-
-JWT Authentication for users
-
-Pagination and filtering for books
-
-Async database operations
-
-Docker containerization
+- JWT Authentication for users
+- Pagination and filtering for books
+- Async database operations
+- Docker containerization
 
 **👨‍💻 Author**
 
