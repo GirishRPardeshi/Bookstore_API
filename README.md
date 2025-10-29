@@ -17,6 +17,7 @@ A RESTful API built with **FastAPI**, providing CRUD operations for managing boo
 ---
 
 ## 🧩 Project Structure
+```bash
 bookstore_api/
 │
 ├── main.py
@@ -35,7 +36,7 @@ bookstore_api/
 │ └── review_router.py
 │
 └── requirements.txt
-
+```
 
 ---
 
@@ -48,20 +49,20 @@ bookstore_api/
 
 
 2. **Create a virtual environment**
-```bash
-python -m venv venv
-venv\Scripts\activate
+ ```bash
+ python -m venv venv
+ venv\Scripts\activate
+```
 
-
-3. **Install dependencies**
+3.**Install dependencies**
 ```bash
 pip install -r requirements.txt
-
+```
 
 4. **Run the API**
 ```bash
 uvicorn main:app --reload
-
+```
 **🌐 API Endpoints**
 Method	Endpoint	Description
 GET	/books/	Get all books
