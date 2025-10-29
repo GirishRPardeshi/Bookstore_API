@@ -65,15 +65,15 @@ uvicorn main:app --reload
 ```
 **🌐 API Endpoints**
 ```bash
-Method	Endpoint	Description
-GET	/books/	Get all books
-POST	/books/	Add new book
-GET	/books/{id}	Get a book by ID
-PUT	/books/{id}	Update a book
+Method	Endpoint	   Description
+GET	   /books/	   Get all books
+POST	   /books/	   Add new book
+GET	   /books/{id}	Get a book by ID
+PUT	   /books/{id}	Update a book
 DELETE	/books/{id}	Delete a book
-GET	/authors/	List authors
-POST	/authors/	Add author
-GET	/reviews/	View all reviews
+GET	   /authors/	List authors
+POST	   /authors/	Add author
+GET	   /reviews/	View all reviews
 ```
 **🛠️ Tools Used**
 - FastAPI — high-performance API framework
